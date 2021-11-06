@@ -1,0 +1,123 @@
+.navbar{
+  background-color: #353A40;
+  height: 80px;
+}
+.centrar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contenedor-centro{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}
+.tarjeta{
+  width: 200px;
+  height: 200px;
+  border: solid 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#estudiantes{
+  border-color: #0583f2;
+}
+
+#trainee{
+  border-color: #17a2b8;
+}
+#junior{
+  border-color: #f2a007;
+}
+
+.letras-gris{
+  color: grey;
+}
+.contenedor-formulario{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+.cabecera{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+#formulario{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+  text-align: center;
+}
+#correo{
+  width: 50%;
+  color: grey;
+  border: solid 1px;
+  border-radius: 5px;
+  border-color: grey;
+  padding: 5px;
+}
+.informacion{
+  width: 25%;
+  color: grey;
+  border: solid 1px;
+  border-radius: 5px;
+  border-color: grey;
+  padding: 5px;
+}
+.sin-borde{
+  width: 25%;
+  display: flex;
+}
+#dos{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+  justify-content: center;
+}
+#total{
+  align-items: center;
+  border: 1px solid #CCE5FF;
+  border-radius: 5px;
+  background-color: #CCE5FF;
+  width: 50%;
+  padding: 5px;
+
+}
+.boton-3{
+  width: 25%;
+  color: white;
+  border: solid 1px;
+  border-radius: 5px;
+  border-color: #97C93E;
+  background-color: #97C93E;
+  padding: 5px;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+  padding: 0 5rem 0 5rem;
+  bottom: 0px;
+  width: 100%;
+  border: none;
+  height: auto;
+  color: white;
+  background: rgb(9,9,121);
+  background: linear-gradient(90deg, rgba(27,55,67,1) 0%, rgba(31,82,113,1) 100%);
+  }
+
+  .foot{
+  padding: 10px;
+  }
